@@ -1,9 +1,36 @@
 
 /*Nav bar*/
+.navbar-logo {
+  background-color: black;
+  height: 20vh;
+}
+.navbar-logo img {
+  height: 20vh;
+}
+
+.navbar {
+  background-color: black;
+
+
+}
+
+
+/*Centrado de nav bar */
+.navbar-nav {
+  position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+}
 
 
 
 /*Carousel*/
 .carousel, .carousel-inner , .item ,img {
-    height: 45vh;
+    height: 40vh;
   }
+
+
+
+  /*Responsive*/
+
+  /*meter los mediaquery del carrusel para cuando la pantalla se vaya agrandando*/
