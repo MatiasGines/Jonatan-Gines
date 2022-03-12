@@ -1,12 +1,6 @@
-
-
-
 body {
   background-color: #fdf8f0;
 
-}
-section {
-  margin-bottom: 3%;
 }
 
 .text-size-medium{
@@ -15,12 +9,6 @@ section {
 .espaciado-t-b {
   padding: 2% 0;
 }
-
-.espaciado-margin{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
 
 /*Nav bar*/
 .navbar-logo {
@@ -131,37 +119,11 @@ section {
 }
 
 
-
+/*
 i{
   font-size: 2.5rem;
-  align-items: flex-end;
-  text-align: right;
 }
-
-
-
-
-/*FOOTER*/
-
-footer {
-  background-color: #a3a3a3;
-  height: auto;
-  align-content: center;
-  text-align: center;
-}
-
-footer a{
-  text-decoration: none;
-  color: rgb(71, 71, 71);
-}
-
-.mapa iframe {
-  height: 18vh;
-  width: auto;
-}
-
-
-
+*/
   /*Responsive*/
 
   /*meter los mediaquery del carrusel para cuando la pantalla se vaya agrandando*/
