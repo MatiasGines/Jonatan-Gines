@@ -1,7 +1,14 @@
 body {
   background-color: #fdf8f0;
+
 }
 
+.text-size-medium{
+  font-size: 1.3rem;
+}
+.espaciado-t-b {
+  padding: 2% 0;
+}
 
 /*Nav bar*/
 .navbar-logo {
@@ -29,9 +36,17 @@ body {
 
 
 /*Carousel*/
-.carousel, .carousel-inner , .item ,img {
-    height: 40vh;
+
+/*.carousel, .carousel-inner , .item ,img {
+    height: 45vh;
+  }*/
+
+  /*Arreglar para el tamaño xxl*/
+.carousel img, .carousel-inner , .item  {
+    width: 100%;
+    height: auto;
   }
+
 
 
 
@@ -46,6 +61,7 @@ body {
 
 /*Productos destacados*/
 
+
 .productos-destacados h2 {
   text-align: center;
   text-transform: uppercase;
@@ -53,6 +69,61 @@ body {
   font-size: 1.6rem;
 }
 
+.articulo img {
+  width: 98%;
+  height: auto;
+}
+
+.p-d-articulos {
+  text-align: center;
+}
+
+.p-d-articulos div {
+  margin-bottom: 2%;
+
+}
+
+.p-d-articulos a{
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+  font-weight: lighter;
+}
+
+.p-d-articulos p{
+  font-size: 1rem;
+ 
+}
+
+.p-d-articulos .btn {
+
+  border: 1px gray solid ;
+}
+
+.p-d-articulos .btn-solid {
+
+  border: none;
+
+
+}
+
+.p-d-articulos h3 {
+  font-size: 1.5rem;
+}
+
+
+/*prefooter*/
+
+.bg-color2 {
+  background-color: #D9CFC6;
+}
+
+
+/*
+i{
+  font-size: 2.5rem;
+}
+*/
   /*Responsive*/
 
   /*meter los mediaquery del carrusel para cuando la pantalla se vaya agrandando*/
