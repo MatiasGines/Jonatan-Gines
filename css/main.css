@@ -1,4 +1,6 @@
-
+body, nav{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 
 body {
@@ -49,15 +51,15 @@ section {
 
 /*Carousel*/
 
+
+main {
+  background-color: rgb(0, 0, 0);
+}
 /*.carousel, .carousel-inner , .item ,img {
     height: 45vh;
   }*/
 
   /*Arreglar para el tamaño xxl*/
-
-main {
-  background-color: rgb(0, 0, 0);
-}
 
 .carousel img, .carousel-inner , .item  {
     width: 100%;
@@ -167,6 +169,21 @@ footer a{
 }
 
 
-
   /*Responsive*/
 
+/*.carousel, .carousel-inner , .item ,img {
+    height: 45vh;
+  }*/
+
+  /*Arreglar para el tamaño xxl*/
+  @media (min-width: 1050px) { 
+    
+      
+        .carousel img, .carousel-inner , .item  {
+          
+          width: auto;
+          max-height: 80vh;
+          
+        }
+      
+      }
