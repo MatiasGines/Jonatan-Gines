@@ -54,9 +54,15 @@ section {
   }*/
 
   /*Arreglar para el tamaño xxl*/
+
+main {
+  background-color: rgb(0, 0, 0);
+}
+
 .carousel img, .carousel-inner , .item  {
     width: 100%;
     height: auto;
+    
   }
 
 
@@ -164,4 +170,3 @@ footer a{
 
   /*Responsive*/
 
-  /*meter los mediaquery del carrusel para cuando la pantalla se vaya agrandando*/
